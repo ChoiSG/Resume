@@ -548,11 +548,19 @@
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
   \vspace{\acvSectionContentTopSkip}
+<<<<<<< HEAD
   \vspace{-1.5mm}
   \paragraphstyle
 }{%
   \par
   \vspace{0mm}
+=======
+  \vspace{-3mm}
+  \paragraphstyle
+}{%
+  \par
+  \vspace{2mm}
+>>>>>>> d2b36953b5409d6328530bf6cba001097b6b9b4e
 }
 
 % Define an environment for cventry
@@ -565,7 +573,11 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
+<<<<<<< HEAD
   \vspace{-1.5mm}
+=======
+  \vspace{-0.0mm}
+>>>>>>> d2b36953b5409d6328530bf6cba001097b6b9b4e
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -604,7 +616,11 @@
 % Define an environment for cvhonor
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
+<<<<<<< HEAD
   \vspace{-2mm}
+=======
+  \vspace{-0mm}
+>>>>>>> d2b36953b5409d6328530bf6cba001097b6b9b4e
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
